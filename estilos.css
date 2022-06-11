@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0px;
+	margin: 0px;
+	
+}
+body{
+	font-family:"RM Nenue Bold";
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("img/background.jpg");
+	background-attachment:scroll;
+ 	background-repeat: no-repeat;
+	background-position: top left;
+	background-size:cover;
+}
+div{
+	display:flex;
+	justify-content:center;
+	flex-direction: column;
+	align-self:baseline;
+}
+header{
+	width:1200px;
+	
+}
+
+main{
+	width: 1200px;
+}
+
+article{
+	padding:50px 0px 30px 30px;
+	
+}
+
+.encabezado{
+	height: 50px;
+	background-size: 100%;
+	padding: 30px 0px 30px 0px;
+	margin-top: 20px;
+	margin-bottom:10px;
+	background-color: #5e5cb9;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	border-radius: 30px;
+}
+
+h1{
+	color: #f788c0;
+	font-family:"Tahura", "sans serif";
+	font-kerning: 20px;
+	font-weight: normal;
+	font-size: 40px;
+	list-style: none;
+	display:flex;
+	justify-content:center;
+	align-items: baseline;
+	border-radius: 30px;
+}
+.encabezado h7{
+	display:flex;
+	justify-content:center;
+	align-items: baseline;
+}
+.encabezado a{
+	text-decoration: none;
+	color: #f788c0;
+}
+h2{
+	font-size: 25px;
+	
+}
+h3{
+	font-size: 18pt;
+	padding-left:5pt;
+	border-left: 45px;
+	margin-bottom: 10pt;
+	width:450px;
+}
+h4{
+	font-size: 15pt;
+}
+h5{
+	font-size: 18pt;
+	padding-left:5pt;
+	background-color: #f788c0;
+	border-radius: 30px;
+	border-left: 45px;
+	margin-bottom: 10pt;
+	width:450px;
+}
+p{ 
+	font-family: "RM Nenue";
+	
+}
+
+nav{
+	border-radius: 30px;
+	display:flex;
+	justify-content:center;
+	align-items: baseline;
+}
+nav ul{
+	list-style: none;
+	width: 600px;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	
+	
+}
+
+
+.contacto{
+	padding:10px 0px 10px 0px;
+	color: #6162be;
+	background-color:#f788c0;
+}
+.contacto a{
+	text-decoration:none;
+	color: #6162be;
+}
+.contacto a:hover{
+	color:#fff5fd;
+	background-color:#6162be;
+	padding:10px 10px 10px 10px;
+}
+
+.foto{
+	display: flex;
+	
+}
+
+.presentacion{
+	padding:10px 0px 10px 0px;
+	display:flex;
+	flex-direction: row;
+}
+
+img{
+	margin: 0px 10px 0px 0px;
+	display:flex;
+	flex-direction: column;
+}
+
+.sobremihobbies{
+	width:890px;
+	border-radius: 30px;
+	background-color:#Fde1f7;
+	background-size: 100%;
+}
+
+.sobremi{
+	padding-right: 90px;
+	
+}
+.hobbies{
+	border-radius: 30px;
+	background-color:#Fde1f7;
+	padding: 0px 110px 0px 30px;
+}
+.cajarosa{
+	padding-left:5pt;
+	background-color: #f788c0;
+	border-radius: 30px;
+	margin-bottom: 10pt;
+	padding:20px 0px 20px 10px; 
+	
+}
+
+.experienciayatributos{
+	padding:10px 0px 10px 0px;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-self:flex-end;
+}
+
+.experiencia{
+	background-color:#c3e7b9;
+	border-radius: 30px;
+	
+}
+.experiencia{
+	display:flex;
+	flex-direction: column;
+}
+.atributos {
+	width: 1200px
+	
+}
+.atributos ul{
+	list-style: none;
+	display:flex;
+	flex-direction:row;
+	justify-content: 
+	align-items:center;
+}
+.atributos ul li{
+	width:235px;
+	background-color: #f788c0;
+	border-radius: 30px;
+	margin: 0px 10px 0px 10px;
+	padding:20px 15px 20px 15px;
+}
+
+.adobe{
+	margin-bottom: 10px;
+}
+.contbold{
+	font-size: 20px;
+	padding-right: 20px;
+	
+}
+footer{
+	width: 1200px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+}
+.redes{
+	padding: 0px 8px;
+}
+.texto-footer {
+	padding: 0px 0px 0px 64px;
+	font-size: 1.0625em;
+}
+.redes-footer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0px 64px 0px 0px;
+}
+
+@font-face{
+	font-family: "Tahura";
+	src: url("tipos/Tahura.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: "RM Nenue";
+	src: url("tipos/RMNeue-Regular.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family:"RM Nenue Bold";
+	src: url("tipos/RMNeue-Bold.otf");
+	font-weight: normal;
+	font-style: normal;
+	
+}
