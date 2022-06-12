@@ -262,8 +262,20 @@ footer{
 }
 form{
 	background-color:aqua;
+	width: 600px;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: baseline;
+	
+	
+	
 }
 input{
 	border: none;
 	background-color:lightpink;
+	display: flex;
+	
+
+	
 }
