@@ -256,3 +256,14 @@ footer{
 	font-style: normal;
 	
 }
+/*--------------------------------contacto.HTML----------------------------------------*/
+#main-contacto {
+	
+}
+form{
+	background-color:aqua;
+}
+input{
+	border: none;
+	background-color:lightpink;
+}
