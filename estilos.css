@@ -260,35 +260,58 @@ footer{
 #main-contacto {
 	display: flex;
 	justify-content: center;
-	padding: 20px 0px 20px 0px;
+	padding: 45px 0px 20px 0px;
 	font-family: "RM Nenue"
 }
 
 #formulario{
-	background-color: aqua;
+	background-color: #Fde1f7;
 	border-radius: 30px;
+	padding:20px 20px 0px 20px;
 }
 
 form{
-	background-color:aqua;
-	width: 600px;
+	width: 620px;
+	padding:10px 0px 0px 0px;
 	display: flex;
-	flex-direction:column;
+	
+}
+form div{
+	width: 50%;
+	padding: 15px 25px 20px 0px; 
+	
 }
 input{
+	height: 20px;
 	border: none;
 	background-color:transparent;
     border-bottom: 1px solid #000;
 	outline:none;
+	padding: 5px 0px 5px 0px;
+	margin: 0px 0px 15px 0px;
 }
 ::placeholder {
-	color: blue;
+	color:black;
 	font-family: "RM Nenue";
+	font-size: 18px;
 	outline: none;
 }
-#enviar{
-	border:none;
+textarea{
+	border: none;
+	height: 65px;
 }
+#enviar{
+	width: 60px;
+	border:none;
+	background-color: blueviolet;
+}
+form div #enviar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
 #footer-formulario{
 	position: absolute;
 	bottom: 0;
