@@ -264,7 +264,10 @@ footer{
 	font-family: "RM Nenue"
 }
 
-#formulario
+#formulario{
+	background-color: aqua;
+	border-radius: 30px;
+}
 
 form{
 	background-color:aqua;
@@ -275,7 +278,11 @@ form{
 input{
 	border: none;
 	background-color:lightpink;
-	
+	border: none;
+    border-bottom: 1px solid #000;
+}
+#enviar{
+	border:none;
 }
 #footer-formulario{
 	position: absolute;
