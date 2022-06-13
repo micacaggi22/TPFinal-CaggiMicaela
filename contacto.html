@@ -24,20 +24,24 @@
 		<section id="formulario">
 			<h2>Contactame</h2>
 			<p>Para consultas, ideas...cartas de amor.</p>
-			<form method="post" action="" target="_blank" enctype="text/plain">
-				<label for="Nombre">Nombre:</label>
-				<input type="text" name="Nombre" id="Nombre" maxlength="50" placeholder="Nombre Completo :)" required>
-				
-				<label for="Telefono">Teléfono</label>
-				<input type="tel" name="Telefono" id="Telefono" placeholder="(Cod.Área)0000-0000">
-				
-				<label for="eMail"> eMail:</label>
-				<input type="email" name="eMail" id="eMail" required>
-				
-				<label for="Mensaje">Mensaje</label>
-				<textarea name="Mensaje" id="Mensaje"></textarea>
+			<form method="post" action="mailto:micaelacaggi@gmail.com?subjet=?Consultas!" target="_blank" enctype="text/plain">
+				<div id="columnadatos">
+					<label for="Nombre">Nombre</label>
+					<input type="text" name="Nombre" id="Nombre" maxlength="50" placeholder="Nombre Completo :)" required>
 
-				<input type="submit">
+					<label for="Telefono">Teléfono</label>
+					<input type="tel" name="Telefono" id="Telefono" placeholder="Telefono">
+
+					<label for="eMail"> Email</label>
+					<input type="email" name="eMail" id="eMail" required>
+				</div>
+				<div id="columnamensajes">
+					<label for="Mensaje">Mensaje</label>
+					<textarea name="Mensaje" id="Mensaje" maxlength="850" required></textarea>
+
+					<label><input type="checkbox" name="Newsletter" id="Newsletter">Quiero suscribirme al newsletter para estar al tanto, recibir imprimibles y más.</label>
+					<input type="submit" id="enviar" value="Enviar!">
+				</div>
 			</form>
 		</section>
 	</main>
