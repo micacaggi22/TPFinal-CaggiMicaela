@@ -277,9 +277,14 @@ form{
 }
 input{
 	border: none;
-	background-color:lightpink;
-	border: none;
+	background-color:transparent;
     border-bottom: 1px solid #000;
+	outline:none;
+}
+::placeholder {
+	color: blue;
+	font-family: "RM Nenue";
+	outline: none;
 }
 #enviar{
 	border:none;
