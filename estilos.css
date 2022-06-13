@@ -258,24 +258,26 @@ footer{
 }
 /*--------------------------------contacto.HTML----------------------------------------*/
 #main-contacto {
-	
+	display: flex;
+	justify-content: center;
+	padding: 20px 0px 20px 0px;
 }
+
+#formulario
+
 form{
 	background-color:aqua;
 	width: 600px;
 	display: flex;
 	flex-direction:column;
-	justify-content: center;
-	align-items: baseline;
-	
-	
-	
 }
 input{
 	border: none;
 	background-color:lightpink;
-	display: flex;
 	
-
+}
+#footer-formulario{
+	position: absolute;
+	bottom: 0;
 	
 }
