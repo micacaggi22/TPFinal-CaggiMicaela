@@ -311,6 +311,11 @@ form div #enviar{
 	align-items: center;
 	align-content: center;
 }
+#Mensaje{
+	font-size: 5px;
+	padding-bottom: 10px;
+}
+
 
 #footer-formulario{
 	position: absolute;
