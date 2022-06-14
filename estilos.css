@@ -311,8 +311,20 @@ form div #enviar{
 	align-items: center;
 	align-content: center;
 }
+input [type=checkbox]{
+	font-size: 5px;
+}
+
 
 #footer-formulario{
 	position: absolute;
 	bottom: 0;
+}
+
+/*--------------------------------galeria.HTML----------------------------------------*/
+
+#menugaleria{
+	display:flex;
+	justify-content:center;
+	align-content: center;
 }
