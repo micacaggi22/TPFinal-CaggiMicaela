@@ -250,6 +250,66 @@ footer{
 	background-color: transparent;
 	padding: 0px 0px 0px 0px;
 }
+.hola-animacion{
+	padding: 80px 0px 0px 0px;
+	color: #f788c0;
+}
+.hola-animacion #Hola{
+	font-size: 80px;
+}
+
+/*-------animacion---------*/
+.hola-animacion {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0px 0px 0px 0px;
+	width: 80%;
+	height: 532px;
+	background-image: url("img/index/animacion_1.png");
+	background-size: 100%;
+	animation: hola-animacion 2s infinite ease-in-out;
+	animation-delay: 0s;
+	animation-fill-mode: none;
+	animation-play-state: running;
+	background-repeat: no-repeat;
+}
+@keyframes hola-animacion{
+	0%{
+		background-image: url("img/index/animacion_1.png");
+	}
+	50%{
+		background-image: url("img/index/animacion_2 .png");
+	}
+	100%{
+		background-image: url("img/index/animacion_3.png");
+	}
+}
+/*-------footer---------*//*-------animacion de los stickers---------*/
+.imagen-disfruta {
+	width: 42%;
+	height: 532px;
+	background-image: url("img/index/cierre-animacion-home.png");
+	background-size: 100%;
+	animation: cierre-animacion-home alternate 2s infinite ease-in-out;
+	animation-delay: 0s;
+	animation-fill-mode: none;
+	animation-play-state: running;
+	background-repeat: no-repeat;
+}
+@keyframes cierre-animacion-home{
+	0%{
+		background-image: url("img/index/cierre-animacion-home.png");
+	}
+	50%{
+		background-image: url("img/index/cierre-animacion-2.png");
+	}
+	100%{
+		background-image: url("img/index/cierre-animacion-home.png");
+	}
+}
+/*-------footer---------*/
 
 
 @font-face{
