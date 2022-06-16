@@ -11,7 +11,7 @@ body{
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-	background-image: url("img/background.jpg");
+	background-image: url("img/index/background.jpg");
 	background-attachment:scroll;
  	background-repeat: no-repeat;
 	background-position: top left;
