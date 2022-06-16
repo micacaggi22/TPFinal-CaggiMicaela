@@ -335,3 +335,94 @@ input [type=checkbox]{
 }
 
 /*--------------------------------ilustracion_galeria.HTML----------------------------------------*/
+#ilusdigital{
+	padding: 15px 0px 20px 0px;
+}
+#ilusdigital h2{
+	display: flex;
+	justify-content: center;
+	
+}
+.carrusel {
+	border: none;
+	padding: 20px 0px 20px 0px;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.carrusel ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	max-width: 510px;
+	scroll-behavior: smooth;
+}
+
+.carrusel-fotos {
+	display: flex;
+	gap: 10px;
+	overflow: auto;
+	align-items: center;
+}
+
+.carrusel-fotos img {
+	height: 400px;
+	width: inherit;
+	object-fit: contain;
+	border-radius: 30px;
+}
+#Carruselmenu{
+	padding: 0px 0px 30px 0px;
+	display:flex;
+	justify-content:center;
+	align-items: baseline;
+	align-items: center;
+}
+#Carruselmenu .carrusel-menu{
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+	
+}
+
+.carrusel-menu ul li a{
+	display: flex;
+	flex-direction: row;
+}
+.carrusel-menu img{
+	border-radius:10%;
+	
+}
+
+@media screen and (min-width: 600px) {
+  .carrusel-fotos {
+    overflow: hidden;
+  }
+  .carrusel-fotos img {
+    width: 500px;
+    height: 400px;
+	  border-radius: 30px;
+  }
+  .carrusel-menu {
+    display: none;
+	list-style: none;
+  }
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 50px;
+    height: 40px;
+  }
+  .carrusel-menu img:hover {
+    border: none;
+  }
+	.carrusel-menu ul li{
+	list-style: none;
+		display: none;
+}
+}
+
+p {
+  text-align: center;
+}
