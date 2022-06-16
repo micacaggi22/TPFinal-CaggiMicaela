@@ -292,24 +292,26 @@ input{
 }
 ::placeholder {
 	color:black;
-	font-family: "RM Nenue";
+	font-family: "RM Nenue Bold";
 	font-size: 18px;
 	outline: none;
 }
 textarea{
 	border: none;
 	height: 65px;
+	font-family: "RM Nenue";
 }
 #enviar{
 	width: 60px;
 	border:none;
-	background-color: blueviolet;
-}
-form div #enviar{
+	font-family: "RM Nenue";
+	font-size: 14px;
+	color: #Fde1f7;
+	background-color: #5e5cb9;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 	align-content: center;
+	align-self: center;
 }
 input [type=checkbox]{
 	font-size: 5px;
@@ -395,7 +397,10 @@ input [type=checkbox]{
 	border-radius:10%;
 	
 }
-
+.epigrafe{
+	display: flex;
+	justify-content:center;
+}
 @media screen and (min-width: 600px) {
   .carrusel-fotos {
     overflow: hidden;
@@ -421,8 +426,4 @@ input [type=checkbox]{
 	list-style: none;
 		display: none;
 }
-}
-
-p {
-  text-align: center;
 }
