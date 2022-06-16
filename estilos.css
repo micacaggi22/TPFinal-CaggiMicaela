@@ -328,3 +328,10 @@ input [type=checkbox]{
 	justify-content:center;
 	align-content: center;
 }
+#menugaleria li a{
+	color: black;
+	text-decoration: none;
+	list-style: none;
+}
+
+/*--------------------------------ilustracion_galeria.HTML----------------------------------------*/
