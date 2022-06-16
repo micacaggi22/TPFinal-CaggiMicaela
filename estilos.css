@@ -353,11 +353,11 @@ input [type=checkbox]{
 }
 
 .carrusel ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  max-width: 510px;
-  scroll-behavior: smooth;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	max-width: 510px;
+	scroll-behavior: smooth;
 }
 
 .carrusel-fotos {
@@ -368,9 +368,10 @@ input [type=checkbox]{
 }
 
 .carrusel-fotos img {
-  height: 200px;
+	height: 400px;
 	width: inherit;
-  object-fit: contain;
+	object-fit: contain;
+	border-radius: 30px;
 }
 #Carruselmenu{
 	padding: 0px 0px 30px 0px;
@@ -390,21 +391,22 @@ input [type=checkbox]{
 	display: flex;
 	flex-direction: row;
 }
+.carrusel-menu img{
+	border-radius:10%;
+	
+}
 
 @media screen and (min-width: 600px) {
   .carrusel-fotos {
     overflow: hidden;
   }
-
   .carrusel-fotos img {
     width: 500px;
     height: 400px;
-	  gap: 2px;
   }
-	
   .carrusel-menu {
     display: block;
-	  list-style: none;
+	list-style: none;
   }
   .carrusel-menu img {
     box-sizing: border-box;
