@@ -420,21 +420,21 @@ input [type=checkbox]{
 /*--------------------------------galeria.HTML----------------------------------------*/
 
 #menugaleria{
-	width: 80%;
+	width: 100%;
 	display:flex;
 	flex-direction: row;
 	align-content: center;
-	justify-content: space-around;
 }
 #menugaleria ul{
-	width: 100%;
+	width: 80%;
+	display: flex;
+	align-content: center;
 }
 #menugaleria li a{
 	color: black;
 	text-decoration: none;
 	list-style: none;
 	display: flex;
-	justify-content: center;
 }
 
 /*--------------------------------ilustracion_galeria.HTML----------------------------------------*/
