@@ -420,9 +420,14 @@ input [type=checkbox]{
 /*--------------------------------galeria.HTML----------------------------------------*/
 
 #menugaleria{
+	width: 80%;
 	display:flex;
 	flex-direction: row;
 	align-content: center;
+	justify-content: space-around;
+}
+#menugaleria ul{
+	width: 100%;
 }
 #menugaleria li a{
 	color: black;
