@@ -24,12 +24,12 @@ div{
 	align-self:baseline;
 }
 header{
-	width:1200px;
+	width:75em;
 	
 }
 
 main{
-	width: 1200px;
+	width: 75em;
 }
 
 article{
@@ -476,7 +476,7 @@ input [type=checkbox]{
 	display: flex;
 	justify-content:center;
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1200px) {
   .carrusel-fotos {
     overflow: hidden;
   }
@@ -490,15 +490,14 @@ input [type=checkbox]{
 	list-style: none;
   }
   .carrusel-menu img {
-    box-sizing: border-box;
-    width: 50px;
+	 display: block;
     height: 40px;
   }
-  .carrusel-menu img:hover {
-    border: none;
+	@media screen and (max-width: 601px) {
+  .carrusel-fotos {
+    overflow: hidden;
   }
-	.carrusel-menu ul li{
-	list-style: none;
-		display: none;
-}
+	ul .carrusel-menu{
+		display: block;
+	}
 }
