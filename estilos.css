@@ -195,6 +195,9 @@ img{
 	flex-direction: column;
 }
 .atributos {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 .atributos ul{
 	width: 25%;
