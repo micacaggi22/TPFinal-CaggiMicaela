@@ -322,7 +322,7 @@ footer{
 }
 
 form{
-	width: 620px;
+	width:50%px;
 	padding:10px 0px 0px 0px;
 	display: flex;
 	
@@ -377,14 +377,17 @@ input [type=checkbox]{
 /*--------------------------------galeria.HTML----------------------------------------*/
 
 #menugaleria{
+	width: 50%;
 	display:flex;
-	justify-content:center;
+	flex-direction: row;
 	align-content: center;
 }
 #menugaleria li a{
 	color: black;
 	text-decoration: none;
 	list-style: none;
+	display: flex;
+	justify-content: center;
 }
 
 /*--------------------------------ilustracion_galeria.HTML----------------------------------------*/
@@ -506,10 +509,17 @@ input [type=checkbox]{
 	background-position: relative;
 	}
 	
-	.carrusel-fotos {
-    	overflow: hidden;
-  }
+	#menugaleria{
+	width: 50%;
+	}
 	ul .carrusel-menu{
-		display: block;
+		display: none;
 		}
+	 .carrusel-menu {
+    display: none;
+	list-style: none;
+  }
+  .carrusel-menu img {
+	 display: block;
+    height: 40px;
 	}
