@@ -205,7 +205,8 @@ img{
 	background-color: #f788c0;
 	border-radius: 30px;
 	padding:20px 15px 20px 15px;
-	width: 20%;
+	width: 50%;
+	justify-content: center;
 }
 
 .adobe{
@@ -219,10 +220,8 @@ img{
 footer{
 	width: 100%;
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
-	align-content: center;
-	align-items: center;
+	justify-content: center;
 }
 .redes{
 	padding: 0px 8px;
@@ -243,6 +242,8 @@ footer{
 }
 .footer-contenedor{
 	width: 80%;
+	flex-direction: row;
+	justify-content: space-between;
 }
 .redes-footer {
 	display: flex;
@@ -426,7 +427,7 @@ input [type=checkbox]{
 	align-content: center;
 }
 #menugaleria ul{
-	width: 80%;
+	width: 100%;
 	display: flex;
 	align-content: center;
 }
@@ -599,6 +600,9 @@ input [type=checkbox]{
 }
 	h5{
 		width: 80%;
+	}
+	.texto-footer{
+		padding: 0;
 	}
 }
 	
