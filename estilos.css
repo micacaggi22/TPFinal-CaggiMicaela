@@ -578,6 +578,14 @@ input [type=checkbox]{
 	}
 	.altura{
 	height: 100vh;
+	
+}
+	form{
+		
+		flex-direction: column;
+	}
+	#columnadatos{
+	width: 100%;
 }
 }
 	
