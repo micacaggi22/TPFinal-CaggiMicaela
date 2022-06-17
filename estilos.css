@@ -85,7 +85,6 @@ h3{
 	padding-left:5pt;
 	border-left: 45px;
 	margin-bottom: 10pt;
-	width:450px;
 }
 h4{
 	font-size: 15pt;
@@ -195,20 +194,18 @@ img{
 	flex-direction: column;
 }
 .atributos {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
 }
 .atributos ul{
-	width: 25%;
 	list-style: none;
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
+	padding: 25px 0;
 }
 .atributos ul li{
 	background-color: #f788c0;
 	border-radius: 30px;
 	padding:20px 15px 20px 15px;
+	width: 20%;
 }
 
 .adobe{
@@ -533,12 +530,11 @@ input [type=checkbox]{
 		height: 90%;
 		align-items: center;
 	}
-	.atributos{
-		width: 50%;
-	}
+	
 	.atributos ul li{
-		width: 50%;
-		flex-direction: column;
+		/*width: 50%;*/
+		width: 100%;
+		
 }
 	.hola-animacion {
 	height: 100px;
@@ -587,8 +583,10 @@ input [type=checkbox]{
 	#columnadatos{
 	width: 100%;
 }
-	.atributos ul{
-		flex-direction: column;
+	.atributos ul li{
+	 flex-wrap: wrap;
+		
 	}
+	
 }
 	
