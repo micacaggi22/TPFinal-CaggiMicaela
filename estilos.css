@@ -32,7 +32,7 @@ main{
 	width: 80%;
 }
 .altura{
-	height: 100vh;
+	height: 80vh;
 	
 }
 
@@ -497,7 +497,6 @@ input [type=checkbox]{
 	display: flex;
 	justify-content:center;
 }
-@media screen and (min-width: 1200px) {
 	/*index*/
   .carrusel-fotos {
     overflow: hidden;
@@ -518,7 +517,6 @@ input [type=checkbox]{
   }
 	.presentacion{
 	flex-direction: row;
-}
 }
 @media screen and (max-width: 600px){
 	.presentacion{
@@ -558,6 +556,9 @@ input [type=checkbox]{
 	ul .carrusel-menu{
 		display: none;
 		}
+	#Carruselmenu{
+		display: none;
+	}
 	 .carrusel-menu {
     display: none;
 	list-style: none;
