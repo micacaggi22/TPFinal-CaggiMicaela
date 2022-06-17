@@ -195,15 +195,10 @@ img{
 	flex-direction: column;
 }
 .atributos {
-	width: 80%;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
 }
 .atributos ul{
 	width: 25%;
 	list-style: none;
-	width: 100%;
 	display: flex;
 	flex-direction: row;
 }
